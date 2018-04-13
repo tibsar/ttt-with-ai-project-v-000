@@ -72,7 +72,8 @@ module Players
     ### SPOTS TAKEN BY CURRENT PLAYER
     def next_turn_winnable_spot(board)
       winnable_combos(board).each do |combo|
-        
+        if combo.count{ |position| board.taken?(position)} == 2 
+        end 
       end
     end
 
