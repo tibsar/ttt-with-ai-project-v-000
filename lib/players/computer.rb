@@ -24,11 +24,11 @@ module Players
       else
         if next_turn_winnable_spot_opponent
           move = next_turn_winnable_spot_opponent
-        else 
-          move = most_valuable_spot 
-        end 
-      end 
-    end 
+        else
+          move = most_valuable_spot
+        end
+      end
+    end
 
 
 
@@ -60,6 +60,10 @@ module Players
     ### SPOTS TAKEN BY OPPONENT
     def next_turn_winnable_spot_opponent
     end
+
+    ### RETURNS THE UNTAKEN POSITION THAT OCCURS IN THE MOST WINNABLE WIN COMBOS 
+    def most_valuable_spot
+    end 
 
 
 
