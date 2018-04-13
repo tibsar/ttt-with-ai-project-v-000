@@ -54,7 +54,7 @@ module Players
       ##  - iterate through win_combos and determine is any spots taken by opponent
       ##  - determine all spots where opponent is and remove all combos with that position
 
-      opponent_positions = board.cells.each_index.select{|i| arr[i].token != self.token}
+      opponent_positions = board.cells.each_index.select{|i| arr[i].token != self.token && arr[i].token != " "}
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
