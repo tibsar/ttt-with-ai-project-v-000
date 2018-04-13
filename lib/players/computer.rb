@@ -48,11 +48,14 @@ module Players
     end
 
     ### RETURN ALL WINNABLE COMBOS LEFT ###
-    ### all combos where our opponent is NOT in any of the positions specified ### 
+    ### all combos where our opponent is NOT in any of the positions specified ###
     def winnable_combos(board)
-      ### POSSIBILITIES: 
-      ##  - iterate through win_combos and determine is any spots taken by opponent 
-      ##  - determine all spots where opponent is and remove all combos with that position 
+      ### POSSIBILITIES:
+      ##  - iterate through win_combos and determine is any spots taken by opponent
+      ##  - determine all spots where opponent is and remove all combos with that position
+
+      opponent_positions = 
+      board.cells 
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
