@@ -23,6 +23,12 @@ module Players
         move = next_turn_winnable_spot
       else
         if next_turn_winnable_spot_opponent
+          move = next_turn_winnable_spot_opponent
+        else 
+          move = most_valuable_spot 
+        end 
+      end 
+    end 
 
 
 
@@ -53,7 +59,7 @@ module Players
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
     ### SPOTS TAKEN BY OPPONENT
     def next_turn_winnable_spot_opponent
-    end 
+    end
 
 
 
