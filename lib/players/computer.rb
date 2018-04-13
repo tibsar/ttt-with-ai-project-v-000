@@ -19,12 +19,13 @@ module Players
 
 
     def move(board)
+      if next_turn_winnable_spot
+        
 
-      
 
 
 
-      ### CAN WE WIN ON NEXT MOVE?  #=> WINNABLE COMBO, with 2 spots taken 
+      ### CAN WE WIN ON NEXT MOVE?  #=> WINNABLE COMBO, with 2 spots taken
       ###   YES:
       ###       TAKE THAT SPOT
       ###   NO:
@@ -40,8 +41,8 @@ module Players
     def winnable_combos
     end
 
-    def next_turn_winnable_combo 
-    end 
+    def next_turn_winnable_combo
+    end
 
 
 
