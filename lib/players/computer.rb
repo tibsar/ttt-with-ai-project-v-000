@@ -53,6 +53,7 @@ module Players
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
     ### SPOTS TAKEN BY OPPONENT
     def next_turn_winnable_spot_opponent
+    end 
 
 
 
