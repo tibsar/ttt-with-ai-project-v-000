@@ -59,10 +59,8 @@ module Players
 
       winnable = []
 
-      opponent_positions.each do |position|
-        WIN_COMBINATIONS.each do |win_combo|
-        end 
-      end
+      WIN_COMBINATIONS.each do |win_combo|
+      end 
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
