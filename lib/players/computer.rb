@@ -28,7 +28,7 @@ module Players
       ###           YES:
       ###              TAKE THAT SPOT
       ###           NO:
-      ###              PICK POSITION THAT SHOWS UP IN THE MOST WINNABLE WINS 
+      ###              PICK POSITION THAT SHOWS UP IN THE MOST WINNABLE WINS
 
       # if available, take the middle spot (5)
 
@@ -36,8 +36,12 @@ module Players
 
       # else take a corner (1, 3, 7, 9) #=> odd numbers on board, with the exception of 5
 
+      
 
     end
+
+    def winnable_combos 
+    end 
 
 
 
