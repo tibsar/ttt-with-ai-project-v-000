@@ -4,8 +4,40 @@ module Players
     # 4 | 5 | 6
     # 7 | 8 | 9
 
+    
+
+    WIN_COMBINATIONS = [
+    [1,2,3], # Top row
+    [4,5,6], # Middle row
+    [7,8,9], # Bottom row
+    [1,4,7],
+    [2,5,8],
+    [3,6,9],
+    [1,5,9],
+    [3,5,7]
+  ]
+    
+
     def move(board)
-    end 
+
+      ### CAN WE WIN ON NEXT MOVE? 
+      ###   YES: 
+      ###       TAKE THAT SPOT 
+      ###   NO: 
+      ###       CAN OUR OPPONENT WIN ON THE NEXT MOVE? 
+      ###           YES:  
+      ###              TAKE THAT SPOT 
+      ###           NO: 
+      ###              PICK POSITION THAT SHOWS UP IN THE MOST WINS 
+
+      # if available, take the middle spot (5)
+      
+
+      
+      # else take a corner (1, 3, 7, 9) #=> odd numbers on board, with the exception of 5 
+      
+      
+    end
 
 
 
