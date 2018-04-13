@@ -71,6 +71,8 @@ module Players
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
     ### SPOTS TAKEN BY CURRENT PLAYER
     def next_turn_winnable_spot
+      winnable_combos.each do |combo|
+      end 
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
