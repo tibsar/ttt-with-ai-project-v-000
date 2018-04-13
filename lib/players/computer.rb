@@ -59,7 +59,8 @@ module Players
       #=> [1, 2, 6]
       winnable = []
 
-      WIN_COMBINATIONS.each do |win_combo|
+      WIN_COMBINATIONS.each do |win_combo| #=> win_combo = [1, 2, 3]
+        win_combo.any?{ |combo_position| opponent_positions.any?{ |opp_position| opp_position == combo_position}}
         
       end
     end
