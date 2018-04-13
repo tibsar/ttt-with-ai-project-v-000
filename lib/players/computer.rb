@@ -20,7 +20,9 @@ module Players
 
     def move(board)
       if next_turn_winnable_spot
-        
+        move = next_turn_winnable_spot
+      else 
+
 
 
 
@@ -41,7 +43,7 @@ module Players
     def winnable_combos
     end
 
-    def next_turn_winnable_combo
+    def next_turn_winnable_spot
     end
 
 
