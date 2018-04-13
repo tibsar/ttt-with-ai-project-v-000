@@ -56,11 +56,12 @@ module Players
 
       # Create an array of positions where opponent is located
       opponent_positions = board.cells.each_index.select{|i| board.taken?(i + 1) && board.position(i + 1) != self.token }.map{ |index| index + 1}
-
+      #=> [1, 2, 6]
       winnable = []
 
       WIN_COMBINATIONS.each do |win_combo|
-      end 
+        
+      end
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
