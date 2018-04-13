@@ -36,12 +36,15 @@ module Players
 
       # else take a corner (1, 3, 7, 9) #=> odd numbers on board, with the exception of 5
 
-      
+
 
     end
 
-    def winnable_combos 
-    end 
+    ### RETURN ALL WINNABLE COMBOS LEFT ###
+    def winnable_combos
+    end
+
+    
 
 
 
