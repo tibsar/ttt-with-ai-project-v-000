@@ -19,6 +19,9 @@ module Players
 
 
     def move(board)
+      
+
+      
 
       ### CAN WE WIN ON NEXT MOVE?
       ###   YES:
@@ -30,21 +33,13 @@ module Players
       ###           NO:
       ###              PICK POSITION THAT SHOWS UP IN THE MOST WINNABLE WINS
 
-      # if available, take the middle spot (5)
-
-
-
-      # else take a corner (1, 3, 7, 9) #=> odd numbers on board, with the exception of 5
-
-
-
     end
 
     ### RETURN ALL WINNABLE COMBOS LEFT ###
     def winnable_combos
     end
 
-    
+
 
 
 
