@@ -21,7 +21,9 @@ module Players
     def move(board)
       if next_turn_winnable_spot
         move = next_turn_winnable_spot
-      else 
+      else
+        if next_turn_winnable_spot_opponent 
+        
 
 
 
@@ -43,6 +45,8 @@ module Players
     def winnable_combos
     end
 
+    ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE 
+    ### SPOTS TAKEN BY CURRENT PLAYER 
     def next_turn_winnable_spot
     end
 
