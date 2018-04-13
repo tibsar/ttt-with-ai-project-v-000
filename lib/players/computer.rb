@@ -19,11 +19,12 @@ module Players
 
 
     def move(board)
-      
 
       
 
-      ### CAN WE WIN ON NEXT MOVE?
+
+
+      ### CAN WE WIN ON NEXT MOVE?  #=> WINNABLE COMBO, with 2 spots taken 
       ###   YES:
       ###       TAKE THAT SPOT
       ###   NO:
@@ -38,6 +39,9 @@ module Players
     ### RETURN ALL WINNABLE COMBOS LEFT ###
     def winnable_combos
     end
+
+    def next_turn_winnable_combo 
+    end 
 
 
 
