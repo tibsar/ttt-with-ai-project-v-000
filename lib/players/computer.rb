@@ -62,9 +62,10 @@ module Players
       WIN_COMBINATIONS.each do |win_combo| #=> win_combo = [1, 2, 3]
         if !win_combo.any?{ |combo_position| opponent_positions.any?{ |opp_position| opp_position == combo_position}}
           winnable << win_combo
-        end 
-
+        end
       end
+
+      winnable
     end
 
     ### RETURNS A CURRENTLY EMPTY SPOT IN A WIN COMBO WITH TWO OF THE THREE
